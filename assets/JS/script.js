@@ -1,5 +1,5 @@
 anime({
-  targets: '.div',
+  targets: 'div',
   translateX: 250,
   rotate: '1turn',
   backgroundColor: '#FFF',
