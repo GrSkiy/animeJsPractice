@@ -177,10 +177,31 @@ good
   opacity: 0,
   duration: 1000,
 })
+.add ({
+  targets: '.two',
+  top: {
+    value: -90,
+    duration: 600,
+  }
+})
+
+.add ({
+  targets: '.one',
+  top: {
+    value: -90,
+    duration: 600,
+  }
+})
+.add ({
+  targets: '.three',
+  top: {
+    value: -90,
+    duration: 600,
+  }
+})
 
 let bad = anime.timeline({
   easing: 'easeOutExpo',
-  duration: 1000,
   autoplay: false,
 });
 
@@ -221,6 +242,28 @@ bad
   targets: '.path-two',
   opacity: 0,
   duration: 1000,
+})
+.add ({
+  targets: '.five',
+  top: {
+    value: -90,
+    duration: 600,
+  }
+})
+
+.add ({
+  targets: '.four',
+  top: {
+    value: -90,
+    duration: 600,
+  }
+})
+.add ({
+  targets: '.six',
+  top: {
+    value: -90,
+    duration: 600,
+  }
 })
 
 
