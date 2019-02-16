@@ -1,27 +1,3 @@
-let start = anime({
-  targets: '.sector',
-  translateY: {
-   value: 900,
-   duration: 300,
-   easing: 'linear',
- },
- rotate: {
-   value: 360,
-   duration: 800,
-   easing: 'easeInOutSine'
- },
- scale: {
-   value: 3,
-   duration: 1000,
-   delay: 800,
-   easing: 'easeInOutQuart'
- },
- delay: 250, // All properties except 'scale' inherit 250ms delay
- autoplay: false,
-});
-
-// let both = document.querySelector('')
-
 let go = anime.timeline({
   easing: 'easeOutExpo',
   duration: 1000,
@@ -265,8 +241,6 @@ bad
     duration: 600,
   }
 })
-
-
 
 document.querySelector('.slide').onclick = go.restart;
 document.querySelector('.first-text').onclick = good.restart;
