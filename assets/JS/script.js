@@ -172,6 +172,11 @@ good
     duration: 600,
   }
 })
+.add ({
+  targets: '.path-one',
+  opacity: 0,
+  duration: 1000,
+})
 
 let bad = anime.timeline({
   easing: 'easeOutExpo',
@@ -211,6 +216,11 @@ bad
     value: 655,
     duration: 500,
   }
+})
+.add ({
+  targets: '.path-two',
+  opacity: 0,
+  duration: 1000,
 })
 
 
