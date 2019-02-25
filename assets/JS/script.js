@@ -133,7 +133,6 @@ good
     duration: 600,
   }
 })
-
 .add ({
   targets: '.one',
   top: {
@@ -160,7 +159,6 @@ good
     duration: 600,
   }
 })
-
 .add ({
   targets: '.one',
   top: {
@@ -175,12 +173,10 @@ good
     duration: 600,
   }
 })
-
 let bad = anime.timeline({
   easing: 'easeOutExpo',
   autoplay: false,
 });
-
 bad
 .add ({
   targets: '.path-two',
@@ -199,7 +195,6 @@ bad
     duration: 500,
   }
 })
-
 .add ({
   targets: '.four',
   top: {
@@ -226,7 +221,6 @@ bad
     duration: 600,
   }
 })
-
 .add ({
   targets: '.four',
   top: {
