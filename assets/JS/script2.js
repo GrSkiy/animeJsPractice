@@ -120,6 +120,11 @@ animation2
   duration:300
 })
 .add({
+  targets: ".large_letter11",
+  translateY: 400,
+  duration:300
+})
+.add({
   targets: ".large_letter12",
   translateY: 400,
   duration:300
